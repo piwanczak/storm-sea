@@ -1,0 +1,24 @@
+PASS: Camera stays above wave crests
+PASS: Camera height has an upper limit
+PASS: Camera angles stay in range
+PASS: Travel follows the camera heading
+PASS: Zoom has a safe lower limit
+PASS: Zoom has a safe upper limit
+PASS: Camera state survives save and restore
+PASS: Native OpenGL surface starts
+PASS: GPU compiles and links both shaders
+PASS: GPU draws native ocean frames
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+Rain image difference (0..255): 1.2616450216450217
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+PASS: Fixed scene time reached the GL thread
+PASS: Fixed view reached the screen
+PASS: fixed camera captures

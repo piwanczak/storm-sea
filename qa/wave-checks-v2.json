@@ -1,0 +1,284 @@
+{
+  "shaderSha256": "c5a014e7738ab63f016cc1f1217261adf427116e88ea8d06e51212b7aa657d6d",
+  "method": "Double precision CPU model; tables read from shader. GLSL GPU output is checked separately.",
+  "heightBoundMeters": 3.15,
+  "derivativeChecks": {
+    "points": 4096,
+    "epsilon": 0.0001,
+    "minHeight": -2.673192325664918,
+    "maxHeight": 2.63008413288344,
+    "maxGradientError": 6.366191751538963e-8,
+    "maxSlope": 2.72091280428402
+  },
+  "firstHitReferenceStepMeters": 0.08,
+  "rayMarchChecks": [
+    {
+      "denominator": 0.3,
+      "cap": 3.5,
+      "budget": 32,
+      "refine": 8,
+      "minStep": 0.04,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 85,
+      "nearCameraErrors": 56,
+      "wideCameraErrors": 29,
+      "unresolved": 6,
+      "worstErrorMeters": 34.06981534631859,
+      "averageHeightQueries": 8.875411635565312,
+      "fallbacks": 5,
+      "examples": [
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 24.139642259919917,
+          "selectedSurface": 43.14366326014086,
+          "usedFallback": false
+        },
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 5.052998072354056,
+          "selectedSurface": 7.120574215640757,
+          "usedFallback": false
+        },
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 4.610106751279378,
+          "selectedSurface": 6.2627601651422475,
+          "usedFallback": false
+        },
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 32.09266808166343,
+          "selectedSurface": 51.650341513836466,
+          "usedFallback": true
+        },
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 9.005305080992553,
+          "selectedSurface": 22.49924550849823,
+          "usedFallback": false
+        },
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 7.08821631034877,
+          "selectedSurface": 17.625837931752304,
+          "usedFallback": false
+        }
+      ]
+    },
+    {
+      "denominator": 0.75,
+      "cap": 1.25,
+      "budget": 56,
+      "refine": 8,
+      "minStep": 0.04,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 7,
+      "nearCameraErrors": 3,
+      "wideCameraErrors": 4,
+      "unresolved": 0,
+      "worstErrorMeters": 26.04020920525278,
+      "averageHeightQueries": 15.801866081229418,
+      "fallbacks": 11,
+      "examples": [
+        {
+          "camera": 4.2,
+          "time": 0,
+          "firstSurface": 32.09266808166343,
+          "selectedSurface": 51.6639152603536,
+          "usedFallback": true
+        },
+        {
+          "camera": 4.2,
+          "time": 4,
+          "firstSurface": 65.68460685319127,
+          "selectedSurface": 71.82712563958675,
+          "usedFallback": true
+        },
+        {
+          "camera": 4.2,
+          "time": 13,
+          "firstSurface": 57.8287464668191,
+          "selectedSurface": 63.65694227403243,
+          "usedFallback": true
+        },
+        {
+          "camera": 28,
+          "time": 4,
+          "firstSurface": 367.36796086767237,
+          "selectedSurface": 371.28416610867566,
+          "usedFallback": true
+        },
+        {
+          "camera": 28,
+          "time": 13,
+          "firstSurface": 224.0034722503196,
+          "selectedSurface": 226.32292658745814,
+          "usedFallback": false
+        },
+        {
+          "camera": 28,
+          "time": 39.864000000000004,
+          "firstSurface": 253.5621846494185,
+          "selectedSurface": 263.2480541860686,
+          "usedFallback": true
+        }
+      ]
+    },
+    {
+      "denominator": 0.85,
+      "cap": 0.9,
+      "budget": 160,
+      "refine": 8,
+      "minStep": 0.005,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 0,
+      "nearCameraErrors": 0,
+      "wideCameraErrors": 0,
+      "unresolved": 0,
+      "worstErrorMeters": 0.04460205078214585,
+      "averageHeightQueries": 20.615257958287597,
+      "fallbacks": 0,
+      "examples": []
+    },
+    {
+      "denominator": 1,
+      "cap": 0.75,
+      "budget": 192,
+      "refine": 8,
+      "minStep": 0.005,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 0,
+      "nearCameraErrors": 0,
+      "wideCameraErrors": 0,
+      "unresolved": 0,
+      "worstErrorMeters": 0.017823341932114545,
+      "averageHeightQueries": 24.07299670691548,
+      "fallbacks": 0,
+      "examples": []
+    },
+    {
+      "denominator": 1.2,
+      "cap": 0.75,
+      "budget": 224,
+      "refine": 8,
+      "minStep": 0.005,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 0,
+      "nearCameraErrors": 0,
+      "wideCameraErrors": 0,
+      "unresolved": 0,
+      "worstErrorMeters": 0.009704081227368988,
+      "averageHeightQueries": 25.947310647639956,
+      "fallbacks": 0,
+      "examples": []
+    },
+    {
+      "denominator": 1.2,
+      "cap": 1.25,
+      "budget": 256,
+      "refine": 8,
+      "minStep": 0.005,
+      "toleranceBase": 0.002,
+      "toleranceSlope": 0.000025,
+      "rays": 1822,
+      "laterSurfaceErrorsOver1m": 0,
+      "nearCameraErrors": 0,
+      "wideCameraErrors": 0,
+      "unresolved": 0,
+      "worstErrorMeters": 0.006595860951165378,
+      "averageHeightQueries": 21.35126234906696,
+      "fallbacks": 0,
+      "examples": []
+    }
+  ],
+  "recommendedMarcher": {
+    "denominator": 0.85,
+    "cap": 0.9,
+    "budget": 160,
+    "refine": 8,
+    "minStep": 0.005,
+    "toleranceBase": 0.002,
+    "toleranceSlope": 0.000025,
+    "rays": 1822,
+    "laterSurfaceErrorsOver1m": 0,
+    "nearCameraErrors": 0,
+    "wideCameraErrors": 0,
+    "unresolved": 0,
+    "worstErrorMeters": 0.04460205078214585,
+    "averageHeightQueries": 20.615257958287597,
+    "fallbacks": 0,
+    "examples": []
+  },
+  "spatialShiftChecks": [
+    {
+      "shiftMeters": [
+        27,
+        0
+      ],
+      "rmsDifference": 1.7247485834275658,
+      "rmsHeight": 1.3244999146701826
+    },
+    {
+      "shiftMeters": [
+        0,
+        27
+      ],
+      "rmsDifference": 2.057457800399552,
+      "rmsHeight": 1.3244999146701826
+    },
+    {
+      "shiftMeters": [
+        54,
+        0
+      ],
+      "rmsDifference": 1.9500765031832772,
+      "rmsHeight": 1.3244999146701826
+    },
+    {
+      "shiftMeters": [
+        0,
+        54
+      ],
+      "rmsDifference": 1.7342173387232738,
+      "rmsHeight": 1.3244999146701826
+    },
+    {
+      "shiftMeters": [
+        112,
+        73
+      ],
+      "rmsDifference": 1.7351642460411096,
+      "rmsHeight": 1.3244999146701826
+    },
+    {
+      "shiftMeters": [
+        400,
+        400
+      ],
+      "rmsDifference": 1.9126439967196356,
+      "rmsHeight": 1.3244999146701826
+    }
+  ],
+  "conclusions": [
+    "The smooth limit guarantees absolute height below3.15 m for every finite input.",
+    "Noise fields vary across world space. There is no tiled texture or world-coordinate wrapping.",
+    "The sampled shift checks reject repeats at the listed distances. They are not a proof that a rendered pattern cannot look regular.",
+    "The scalar CPU model checks height and its analytic derivatives. It does not replace Android screenshot and performance checks."
+  ]
+}

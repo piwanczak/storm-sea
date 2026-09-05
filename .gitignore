@@ -1,0 +1,24 @@
+.gradle/
+.gradle-*/
+.android-user-home/
+.emulator/
+.emulator-*/
+.idea/
+**/build/
+/dist/
+local.properties
+*.iml
+*.jks
+*.keystore
+*.apk
+*.aab
+.DS_Store
+
+# Local device output and previous builds.
+/qa/*.log
+/qa/*.png
+/qa/ui.xml
+/qa/device/
+/qa/revision/
+/qa/baseline/
+/qa/emulator.md

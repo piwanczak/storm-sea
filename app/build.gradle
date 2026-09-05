@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.stormsea.app'
+    compileSdk 35
+    buildToolsVersion '36.0.0'
+
+    defaultConfig {
+        applicationId 'com.stormsea.app'
+        minSdk 26
+        targetSdk 35
+        versionCode 2
+        versionName '1.1'
+        testInstrumentationRunner 'com.stormsea.app.StormInstrumentation'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}

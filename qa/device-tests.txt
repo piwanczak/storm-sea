@@ -1,0 +1,30 @@
+PASS: Camera stays above wave crests
+PASS: Camera height has an upper limit
+PASS: Camera angles stay in range
+PASS: Travel follows the camera heading
+PASS: Zoom has a safe lower limit
+PASS: Zoom has a safe upper limit
+PASS: Camera state survives save and restore
+PASS: Native OpenGL surface starts
+PASS: GPU compiles and links both shaders
+PASS: GPU draws native ocean frames
+PASS: One-finger drag turns and tilts the camera
+PASS: Second pointer does not cause a camera jump
+PASS: Third pointer does not cause a camera jump
+PASS: Pinch changes perspective
+PASS: Two-finger drag moves the camera across the sea
+PASS: Pointer removal does not cause a camera jump
+PASS: Sea pixels change while animation runs
+PASS: Scene has visible light and dark detail
+PASS: Pause button stops scene time
+PASS: Paused scene pixels remain fixed
+PASS: Controls can be hidden and restored
+PASS: Rain toggle works
+PASS: Lightning toggle works
+PASS: High detail can be selected
+PASS: Low detail can be selected
+PASS: Reset view restores camera defaults
+PASS: Activity saves the camera and resumes the GL surface
+PASS: Renderer has no error after lifecycle and detail changes
+Renderer FPS at test end: 59.554783
+PASS: all native checks
